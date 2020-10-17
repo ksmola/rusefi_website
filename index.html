@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Skeleton: Responsive CSS Boilerplate</title>
+  <title>rusEFI</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -43,8 +43,8 @@
   <div class="container">
     <section class="header">
       <img src="images/logo.png" width="80%">
-      <h4 class="title">A GPL open source Engine Control Unit</h4>
-      <a class="button" href="https://rusefi.com" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Get it</a>
+      <h4 class="title">A GPL open source Engine Management System</h4>
+      <a class="button" href="https://rusefi.com" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Getting started</a>
       <div class="value-props row">
         <div class="four columns value-prop">
           <img class="value-img" src="http://getskeleton.com/images/feather.svg">
@@ -52,7 +52,7 @@
         </div>
         <div class="four columns value-prop">
           <img class="value-img" src="http://getskeleton.com/images/pens.svg">
-          Styles designed to be a starting point, not a UI framework.
+          GPL open source
         </div>
         <div class="four columns value-prop">
           <img class="value-img" src="http://getskeleton.com/images/watch.svg">
@@ -72,22 +72,22 @@
             <div id="codeNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
-                  <a class="popover-link" href="#grid">Frankenso</a>
+                  <a class="popover-link" href="#microrusefi">microRusEFI</a>
                 </li>
                 <li class="popover-item">
-                  <a class="popover-link" href="#typography">Prometheus</a>
+                  <a class="popover-link" href="#proteus">Proteus</a>
                 </li>
                 <li class="popover-item">
                   <a class="popover-link" href="#buttons">Frankenstein</a>
                 </li>
                 <li class="popover-item">
-                  <a class="popover-link" href="#forms">microRusEFI</a>
+                  <a class="popover-link" href="#forms">Frankenso</a>
                 </li>
                 <li class="popover-item">
                   <a class="popover-link" href="#lists">Hellen</a>
                 </li>
                 <li class="popover-item">
-                  <a class="popover-link" href="#code">PRoteus</a>
+                  <a class="popover-link" href="#code">Prometheus</a>
                 </li>
               </ul>
             </div>
@@ -124,102 +124,116 @@
 
     <!-- Why use Skeleton -->
     <div class="docs-section" id="intro">
-      <h6 class="docs-header">Is rusEFI for you?</h6>
-      <p>Modern 32 bit chips are a game changer for Do-It-Yourself Engine Management - ECU should be easy to deal with, show what is going on and why</p>
+      <h6 class="docs-header">Intro</h6>
+      <p>Modern 32 bit chips are a game changer for Do-It-Yourself Engine Management</p>
+      <p>rusEFI is the next generation of open source, DIY automotive engine management. With the availability of cheap yet extremely powerful micro-controllers, we can make a very simple and powerful engine management system possible!</p>
+      <table class="u-half-width">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Supported</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Batch injection</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Sequential Injection up to 12 cylinders</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>Sequential Ignition up to 12 cylinders</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <td>Wasted Ignition</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>Direct Injection</td>
+            <td>in development</td>
+          </tr>
+          <tr>
+            <td>Rotary Engines</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <td>Closed Loop Fueling</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>Electronic Throttle Body</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>Knock Sensing</td>
+            <td>in development</td>
+          </tr>
+          <tr>
+            <td>Boost Control</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>Launch Control</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>Flat Shifting</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>Automatic Transmission Control</td>
+            <td>in development</td>
+          </tr>
+          <tr>
+            <td>Acceleration enrichment - wall wetting/fuel trip/tau factor</td>
+            <td>yes</td>
+          </tr>
+        </tbody>
+      </table>
       <a class="github-button" href="https://github.com/rusefi" data-size="large" aria-label="Follow @rusefi on GitHub">Follow @rusefi</a>
       <a class="github-button" href="https://github.com/rusefi/rusefi/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch rusefi/rusefi on GitHub">Watch</a>    </div>
 
     <!-- Grid -->
-    <div class="docs-section" id="grid">
-      <h6 class="docs-header">The grid</h6>
-      <p>The grid is a <u>12-column fluid grid with a max width of 960px</u>, that shrinks with the browser/device at smaller sizes. The max width can be changed with one line of CSS and all columns will resize accordingly. The syntax is simple and it makes coding responsive much easier. Go ahead, resize the browser. </p>
-      <div class="example-grid docs-example">
-        <div class="row">
-          <div class="one column">One</div>
-          <div class="eleven columns">Eleven</div>
-        </div>
-        <div class="row">
-          <div class="two columns">Two</div>
-          <div class="ten columns">Ten</div>
-        </div>
-        <div class="row">
-          <div class="three columns">Three</div>
-          <div class="nine columns">Nine</div>
-        </div>
-        <div class="row">
-          <div class="four columns">Four</div>
-          <div class="eight columns">Eight</div>
-        </div>
-        <div class="row">
-          <div class="five columns">Five</div>
-          <div class="seven columns">Seven</div>
-        </div>
-        <div class="row">
-          <div class="six columns">Six</div>
-          <div class="six columns">Six</div>
-        </div>
-        <div class="row">
-          <div class="seven columns">Seven</div>
-          <div class="five columns">Five</div>
-        </div>
-        <div class="row">
-          <div class="eight columns">Eight</div>
-          <div class="four  columns">Four</div>
-        </div>
-        <div class="row">
-          <div class="nine columns">Nine</div>
-          <div class="three columns">Three</div>
-        </div>
-        <div class="row">
-          <div class="ten columns">Ten</div>
-          <div class="two columns">Two</div>
-        </div>
-        <div class="row">
-          <div class="eleven columns">Eleven</div>
-          <div class="one column">One</div>
-        </div>
-      </div>
+    <div class="docs-section" id="microrusefi">
+      <h6 class="docs-header">microRusEFI</h6>
+      <img src="images/rusefi_mre2.png" width="100%">
+      <p>microRusEFI is a small & cheap engine management system board designed for fully sequential 1, 2, 3 and 4 cylinder applications.<br>
+        6 and 8 cylinders are possible with some limitations. 5 cylinder application not recommended. You would need at least two microRusEFI units to run a 12 cylinder engine.<br>
+        microRusEFI uses a waterproof connector and its aluminum enclosure could be sealed.<br>
+        microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaft position sensor input (A few resistors must be replaced on the PCB in order to switch from one setup to another)<br>
+        Open source design available in this repository, or available as a kit or completely assembled.</p>
+        <b>Features</b><br>
+        <ul>
+          <li>Primary VR or Hall input (configurable with few resistor changes)</li>
+          <li>Secondary Hall input</li>
+          <li>4 analog thermistor (temperature) inputs</li>
+          <li>10 analog voltage inputs (0-5v)</li>
+          <li>4 high-Z injector outputs</li>
+          <li>2 high-current low side outputs for IAC/VVT/other solenoids</li>
+          <li>Dedicated main relay control output</li>
+          <li>4 low-current low side outputs for relays or warning lights</li>
+          <li>4 5v logic-level ignition outputs</li>
+          <li>2 logic level outputs (5v/12v configurable, requires resistor changes)</li>
+          <li>Electronic throttle body (drive by wire)</li>
+          <li>CAN connectivity on the plug</li>
+          <li>USB connectivity on the plug</li>
+          <li>SPI and TTL available on PCB</li>
+        </ul>
+
+        <a class="button button-primary" href="https://www.ebay.com/itm/rusEFI-microRusEfi-assembled-ECU-standalone-engine-management/333532119947" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Get microRusEFI hardware</a>
+    </div>
 
 
-<!-- CODE EXAMPLE ———————————————————————————————————————— -->
-<pre class="code-example">
-<code class="code-example-body prettyprint"><!-- .container is main centered wrapper -->
-<div class="container">
-
-  <!-- columns should be the immediate child of a .row -->
-  <div class="row">
-    <div class="one column">One</div>
-    <div class="eleven columns">Eleven</div>
-  </div>
-
-  <!-- just use a number and class 'column' or 'columns' -->
-  <div class="row">
-    <div class="two columns">Two</div>
-    <div class="ten columns">Ten</div>
-  </div>
-
-  <!-- there are a few shorthand columns widths as well -->
-  <div class="row">
-    <div class="one-third column">1/3</div>
-    <div class="two-thirds column">2/3</div>
-  </div>
-  <div class="row">
-    <div class="one-half column">1/2</div>
-    <div class="one-half column">1/2</div>
-  </div>
-
-</div>
-
-<!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->
-</code>
-</pre>
-<!-- ————————————————————————————————————————————————————— -->
-
-
+    <!-- proteus -->
+    <div class="docs-section" id="proteus">
+      <h6 class="docs-header">PROTEUS</h6>      
     </div>
 
     <!-- Typography -->
-    <div class="docs-section" id="typography">
+    <div class="docs-section" id="proteus">
       <h6 class="docs-header">Typography</h6>
       <p>Type is all set with the <code>rems</code>, so font-sizes and spacial relationships can be responsively sized based on a single <code>&lt;html&gt;</code> font-size property. Out of the box, Skeleton never changes the <code>&lt;html&gt;</code> font-size, but it's there in case you need it for your project. All measurements are still base 10 though so, an <code>&lt;h1&gt;</code> with <code>5.0rem</code>font-size just means <code>50px</code>.</p>
       <div class="docs-example">
@@ -454,29 +468,29 @@
     </div>
 
     <!-- Tables -->
-    <div class="docs-section" id="tables">
-      <h6 class="docs-header">Tables</h6>
-      <p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
+    <div class="docs-section" id="shop">
+      <h6 class="docs-header">Shop</h6>
+      <p>Get rusEFI hardware</p>
       <div class="docs-example">
         <table class="u-full-width">
-          <thead>
+          <!-- <thead>
             <tr>
               <th>Name</th>
               <th>Age</th>
               <th>Sex</th>
               <th>Location</th>
             </tr>
-          </thead>
+          </thead> -->
           <tbody>
             <tr>
-              <td>Dave Gamache</td>
-              <td>26</td>
+              <td><img src="images/38p_board.jpg" width="250px" alt=""></td>
+              <td>38 pin breakout</td>
               <td>Male</td>
-              <td>San Francisco</td>
+              <td><a href="https://www.ebay.com/itm/333735833268">Get it on eBay</a></td>
             </tr>
             <tr>
-              <td>Dwayne Johnson</td>
-              <td>42</td>
+              <td><img src="images/52p_board_connector.jpg" width="250px" alt=""></td>
+              <td>52 pin breakout</td>
               <td>Male</td>
               <td>Hayward</td>
             </tr>
