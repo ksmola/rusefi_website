@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -42,19 +43,23 @@
     <section class="header">
       <img src="images/logo.png" width="80%">
       <h4 class="title">A GPL open source Engine Management System</h4>
-      <a class="button" href="https://rusefi.com" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Getting
-        started</a>
+      <a class="github-button" href="https://github.com/rusefi" data-size="large"
+        aria-label="Follow @rusefi on GitHub">Follow @rusefi</a>
+      <a class="github-button" href="https://github.com/rusefi/rusefi/subscription" data-icon="octicon-eye"
+        data-size="large" data-show-count="true" aria-label="Watch rusefi/rusefi on GitHub">Watch</a>
+      <!-- <a class="button" href="https://rusefi.com" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Getting
+        started</a> -->
       <div class="value-props row">
         <div class="four columns value-prop">
-          <img class="value-img" src="http://getskeleton.com/images/feather.svg">
+          <i class="fa fa-bar-chart fa-4x" aria-hidden="true"></i> <br>
           32bit MCU
         </div>
         <div class="four columns value-prop">
-          <img class="value-img" src="http://getskeleton.com/images/pens.svg">
-          GPL open source
+          <i class="fa fa-code-fork fa-4x" aria-hidden="true"></i> <br>
+          GPL open source </p>
         </div>
         <div class="four columns value-prop">
-          <img class="value-img" src="http://getskeleton.com/images/watch.svg">
+          <i class="fa fa-clock-o fa-4x" aria-hidden="true"></i> <br>
           Quick to start with prebuilt boards
         </div>
       </div>
@@ -72,8 +77,8 @@
               <ul class="popover-list">
                 <li class="popover-item">
                   <a class="popover-link" href="index.html#microrusefi">microRusEFI</a>
-                <!-- </li> -->
-                <!-- <li class="popover-item">
+                  <!-- </li> -->
+                  <!-- <li class="popover-item">
                   <a class="popover-link" href="index.html#proteus">Proteus</a>
                 </li>
                 <li class="popover-item">
@@ -114,81 +119,85 @@
         <tbody>
           <tr>
             <td>Batch injection</td>
-            <td>Yes</td>
+            <td><i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Sequential Injection up to 12 cylinders</td>
-            <td>yes</td>
+            <td><i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Sequential Ignition up to 12 cylinders</td>
-            <td>no</td>
+            <td><i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Wasted Ignition</td>
-            <td>yes</td>
+            <td><i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Direct Injection</td>
-            <td>in development</td>
+            <td><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Rotary Engines</td>
-            <td>no</td>
+            <td><i class="fa fa-times fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Closed Loop Fueling</td>
-            <td>yes</td>
+            <td><i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Electronic Throttle Body</td>
-            <td>yes</td>
+            <td><i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Knock Sensing</td>
-            <td>in development</td>
+            <td><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Boost Control</td>
-            <td>yes</td>
+            <td><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Launch Control</td>
-            <td>yes</td>
+            <td><i class="fa fa-times fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Flat Shifting</td>
-            <td>yes</td>
+            <td><i class="fa fa-times fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Automatic Transmission Control</td>
-            <td>in development</td>
+            <td><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
           <tr>
             <td>Acceleration enrichment - wall wetting/fuel trip/tau factor</td>
-            <td>yes</td>
+            <td><i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i></td>
           </tr>
         </tbody>
       </table>
-      <a class="github-button" href="https://github.com/rusefi" data-size="large"
-        aria-label="Follow @rusefi on GitHub">Follow @rusefi</a>
-      <a class="github-button" href="https://github.com/rusefi/rusefi/subscription" data-icon="octicon-eye"
-        data-size="large" data-show-count="true" aria-label="Watch rusefi/rusefi on GitHub">Watch</a>
+
+      <p>
+      <div class=glossary>
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i> Supported
+        <i class="fa fa-circle-o" aria-hidden="true"></i> In Development
+        <i class="fa fa-times" aria-hidden="true"></i> Currently not supported
+      </div>
+      </p>
+
     </div>
 
     <!-- Grid -->
     <div class="docs-section" id="microrusefi">
       <h6 class="docs-header">microRusEFI</h6>
       <img src="images/rusefi_mreheader.png" width="100%">
-      <p>microRusEFI is a small & cheap engine management system board designed for fully sequential 1, 2, 3 and 4
+      <p>microRusEFI is a small & cheap Engine Management System board designed for fully sequential 1, 2, 3 and 4
         cylinder applications.<br>
-        6 and 8 cylinders are possible with some limitations. 5 cylinder application not recommended. You would need at
-        least two microRusEFI units to run a 12 cylinder engine.<br>
         microRusEFI uses a waterproof connector and its aluminum enclosure could be sealed.<br>
         microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaft position sensor input (A few
-        resistors must be replaced on the PCB in order to switch from one setup to another)<br>
-        Open source design available in this repository, or available as a kit or completely assembled. <br>
-        This is an excelent option for 
+        resistors must be replaced on the PCB to switch from one setup to another)<br>
+        Open-source design available in <a href="https://github.com/rusefi/hw_microRusEfi">this repository</a>, or
+        available as a kit or completely assembled. <br>
+        This is an excellent option for racing series that allow modifications inside the stock ECU case.
       </p>
       <b>Features</b>
       <ul>
@@ -207,24 +216,22 @@
         <li>USB connectivity on the plug</li>
         <li>SPI and TTL available on PCB</li>
       </ul>
-
-      <a class="button button-primary"
-        href="https://www.ebay.com/itm/333532119947">Get microRusEFI hardware</a>
+      <a class="button button-primary" href="https://www.ebay.com/itm/333532119947">Get microRusEFI hardware</a>
     </div>
 
     <div class="docs-section" id="shop">
       <h6 class="docs-header">Shop</h6>
-      <p>Get rusEFI hardware</p>
+      <p>The following rusEFI hardware is currently available on eBay:</p>
       <div class="docs-example">
         <table class="u-full-width">
           <!-- <thead>
-            <tr>
-              <th>picture</th>
-              <th>item</th>
-              <th>description</th>
-              <th>link</th>
-            </tr>
-          </thead> -->
+                <tr>
+                  <th>picture</th>
+                  <th>item</th>
+                  <th>description</th>
+                  <th>link</th>
+                </tr>
+              </thead> -->
           <tbody>
             <tr>
               <td><img src="images/38p_board.jpg" width="250px" alt=""></td>
@@ -233,8 +240,85 @@
             </tr>
             <tr>
               <td><img src="images/52p_board_connector.jpg" width="250px" alt=""></td>
-              <td>52 pin breakout</td>
-              <td><a class="button button-primary" href="https://www.ebay.com/itm/333749717058">Get it on eBay</a></td>
+              <td>52 pin breakout board <br> 52 pin connector</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333749717058">Get it on eBay</a><br>
+                <a class="button button-primary" href="https://www.ebay.com/itm/333735826285">Get it on eBay</a></td>
+            </tr>
+            <tr>
+              <td><img src="images/55_board_with_connector.jpg" width="250px" alt=""></td>
+              <td>55 pin breakout board <br> 55 pin connector with breakout board</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333560110330">Get it on eBay</a> <br>
+                <a class="button button-primary" href="https://www.ebay.com/itm/333560110543">Get it on eBay</a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/55_connector_motronic.jpg" width="250px" alt=""></td>
+              <td>Alternative 55 pin connector</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333560110543">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/60_board_with_connector.jpg" width="250px" alt=""></td>
+              <td>60 pin Ford EEC-IV connector</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333647826399">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/64_board_with_connector.jpg" width="250px" alt=""></td>
+              <td>64 pin breakout board <br> 64 pin connector with breakout board</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333104237990">Get it on eBay</a> <br>
+                <a class="button button-primary" href="https://www.ebay.com/itm/332771650527">Get it on eBay</a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/68p_board.jpg" width="250px" alt=""></td>
+              <td>68 pin breakout board</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333586438870">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/72_board_with_connector.jpg" width="250px" alt=""></td>
+              <td>72 pin connector with breakout board</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/332771651266">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/80_pin_connector.jpg" width="250px" alt=""></td>
+              <td>80 pin connector</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333685575469">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/88_connector_2.5_rows.jpg" width="250px" alt=""></td>
+              <td>88 pin connector</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333752255007">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/112p_connector.jpg" width="250px" alt=""></td>
+              <td>112 pin connector</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333735821926">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/121_board_with_connector.jpg" width="250px" alt=""></td>
+              <td>121 pin breakout board <br> 121 pin connector with breakout board</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/332953220080">Get it on eBay</a> <br>
+                <a class="button button-primary" href="https://www.ebay.com/itm/333596446367">Get it on eBay</a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/134_board_with_connector.jpg" width="250px" alt=""></td>
+              <td>134 pin connector</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333534819202">Get it on eBay</a> <br>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/154_board_with_connector.jpg" width="250px" alt=""></td>
+              <td>154 pin breakout board <br> 154 pin connector with breakout board</td>
+              <td><a class="button button-primary" href="https://www.ebay.com/itm/333586437475">Get it on eBay</a> <br>
+                <a class="button button-primary" href="https://www.ebay.com/itm/333606651255">Get it on eBay</a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -250,7 +334,8 @@
         </a>
         <div class="one-half offset-by-one-half column">
           <h6 class="example-header">rusEFI online</h6>
-          <p class="example-description">Talk <br> about <br> rusEFI online...</p>
+          <p class="example-description">Upload, share and view your tune <br> Right in the browser <br> with rusEFI
+            online</p>
           <a class="button" href="https://rusefi.com/online/" target="_blank">rusEFI online</a>
         </div>
       </div>

@@ -83,6 +83,11 @@
     left: 5px; }
   .navbar {
     display: none; }
+
+  .glossary {
+    font-style: italic;
+    margin-left: 2rem;
+  }
   
   /* Larger than phone */
   @media (min-width: 550px) {
