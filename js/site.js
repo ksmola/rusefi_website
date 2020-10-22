@@ -81,12 +81,12 @@ $(document).ready(function() {
       });
     }
   
-    function buildSnippets() {
-      $codeSnippets.each(function() {
-        var newContent = escapeHtml($(this).html())
-        $(this).html(newContent)
-      })
-    }
+    // function buildSnippets() {
+    //   $codeSnippets.each(function() {
+    //     var newContent = escapeHtml($(this).html())
+    //     $(this).html(newContent)
+    //   })
+    // }
   
   
     init();
