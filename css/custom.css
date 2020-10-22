@@ -88,6 +88,11 @@
     font-style: italic;
     margin-left: 2rem;
   }
+  .footer {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
   
   /* Larger than phone */
   @media (min-width: 550px) {
